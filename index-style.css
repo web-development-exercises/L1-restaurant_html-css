@@ -1,6 +1,5 @@
 :root {
   --news-radius: 20px;
-  --clr-h2: rgb(141, 0, 0);
 }
 
 main {
@@ -23,7 +22,6 @@ article hr {
 
 article h2 {
   font-size: 35px;
-  color: var(--clr-h2);
 }
 
 .news {
@@ -79,11 +77,6 @@ aside {
   gap: 10px;
 
   text-align: center;
-}
-
-aside h2 {
-  font-size: 30px;
-  color: var(--clr-h2);
 }
 
 aside hr {

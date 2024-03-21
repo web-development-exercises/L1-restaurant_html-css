@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Restaurant - Contact</title>
+    <link rel="icon" type="image/png" href="assets/tab-icon.png" />
+
+    <link rel="stylesheet" href="common/overall-style.css" />
+    <link rel="stylesheet" href="contact-style.css" />
+  </head>
+
+  <body>
+    <header class="page-header">
+      <img src="assets/tab-icon.png" alt="Restaurant Logo" class="main-logo" />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <pre>
+            Address: 456 Gourmet Avenue, Culinary Town, FL 12345
+            Phone: (555) 123-4567
+            Email: info@delightfulbistro.fake
+            Website: www.delightfulbistro.fake</pre
+      >
+
+      <section>
+        <h2>Reservation</h2>
+        <form action="" method="get">
+          <label for="reservation-name">Name:</label>
+          <input type="text" name="reservation-name" id="reservation-name" />
+
+          <label for="reservation-email">Email:</label>
+          <input type="email" name="reservation-email" id="reservation-email" />
+
+          <label for="reservation-phone-number">Phone number:</label>
+          <input
+            type="tel"
+            name="reservation-phone-number"
+            id="reservation-phone-number"
+          />
+
+          <fieldset>
+            <legend>Date</legend>
+            <input type="date" name="reservation-date" id="reservation-date" />
+            <input type="time" name="reservation-time" id="reservation-time" />
+          </fieldset>
+
+          <label for="reservation-note">Note:</label>
+          <textarea
+            type="text"
+            name="reservation-note"
+            id="reservation-note"
+          ></textarea>
+
+          <input type="submit" value="Create Reservation" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>THANKS FOR VISITING!</p>
+    </footer>
+  </body>
+</html>

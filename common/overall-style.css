@@ -1,18 +1,30 @@
-:root{
-    --clr-background: rgb(133, 86, 0);
+:root {
+  --clr-background: rgb(133, 86, 0);
+  --clr-dark-red: rgb(141, 0, 0);
 }
 
 body {
   background-color: rgb(236, 236, 236);
 
   min-width: 1200px;
+  min-height: 100vh;
 
   margin-left: 25px;
   margin-right: 25px;
 
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   gap: 25px;
+}
+
+h2{
+  font-size: 30px;
+  color: var(--clr-dark-red);
+}
+
+main{
+  flex-grow: 1;
 }
 
 .page-header {
