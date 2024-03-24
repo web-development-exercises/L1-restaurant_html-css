@@ -1,0 +1,40 @@
+.dish-listing {
+    background-color: white;
+  
+    height: 190px;
+    width: 230px;
+  
+    padding-top: 25px;
+    padding-bottom: 10px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    border: 2px solid rgb(136, 0, 0);
+    border-radius: 60px;
+  }
+  
+  .dish-listing:hover {
+    border-color: red;
+  }
+  
+  .dish-listing img {
+    height: 100px;
+    aspect-ratio: 1;
+    border-radius: 50px;
+  }
+  
+  .dish-name {
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 10px;
+  }
+  
+  .dish-price {
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 3px;
+  }
