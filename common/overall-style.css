@@ -61,6 +61,16 @@ main{
 .main-nav a {
   color: white;
   text-decoration: none;
+  width: 100px;
+  text-align: center;
+}
+
+.main-nav a:hover {
+  color: rgb(179, 179, 179);
+}
+
+.main-nav a.active-nav-tag:hover{
+  color: white;
 }
 
 footer {
@@ -82,4 +92,11 @@ footer p {
   font-family: "Indie Flower", cursive;
   font-size: 30px;
   color: white;
+}
+
+.copright-notice{
+  top: 90%;
+  left: 100px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
 }
