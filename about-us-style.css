@@ -1,0 +1,31 @@
+main {
+  align-self: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 50%;
+
+  text-align: center;
+}
+
+p {
+  font-size: larger;
+  text-align: center;
+
+  line-height: 1.8em;
+}
+
+pre {
+  font-size: large;
+  font-weight: 900;
+
+  margin-top: 60px;
+}
+
+pre a {
+  text-decoration: underline;
+  color: red;
+  font-size: larger;
+}
